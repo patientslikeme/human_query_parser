@@ -19,10 +19,6 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^test/})
   spec.require_paths = ['lib']
 
-  if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = 'https://gemfury.io'
-  end
-
   spec.add_runtime_dependency 'parslet', '~> 1.8'
 
   spec.add_development_dependency 'bundler', '~> 1.10'
