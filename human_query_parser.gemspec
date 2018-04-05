@@ -9,6 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ['PatientsLikeMe']
   spec.email         = ['engineers@patientslikeme.com']
   spec.homepage      = 'https://www.patientslikeme.com'
+  spec.license       = 'MIT'
 
   spec.summary       = 'A tool for taking search queries of the form most users will expect, and producing ElasticSearch queries that do what most users would expect.'
   spec.description   = 'A tool for taking search queries of the form most users will expect, and producing ElasticSearch queries that do what most users would expect.'
